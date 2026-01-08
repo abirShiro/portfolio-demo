@@ -19,10 +19,14 @@
     border-radius: 5px;
     font-size: 15px;
     color:white;
+    cursor:pointer;
 }
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("images/developer.png") , url(images/header_bg.png),#FFF8F3;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
 }
 *{
     margin:0px;
@@ -48,4 +52,85 @@ nav .menu a{
     font-size: 15px;
     color: #474747;
     text-decoration: none;
+}
+
+#banner{
+    /*border:1px solid red;*/
+    margin: 35px 25px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text{
+    max-width: 555px;
+}
+
+#banner .banner-text h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+        
+}
+
+#banner .banner-text h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+
+}
+#banner .banner-text p{
+    font-size: 18px;
+    color: black;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img{
+    max-width: 550px;
+    vertical-align:middle; /*removes the bottom space of the image */
+}
+
+#about{
+    padding-top: 100px;
+}
+
+#about .about-container{
+    margin :0 auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    width: 71%;
+    max-width: 1140;
+    padding: 110px 130px;
+}
+
+.about-header{
+    max-width: 785px;
+    text-align: center;
+}
+.about-header h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about-header{
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #757575;
+}
+
+#about .about-container .about-card{
+    display:flex;
+    justify-content: space-around;  /*around because not stickimg to the border*/
+}
+
+.about-card p{
+    font-size:18px;
+    color:#757575;
+    line-height: 25PX;
 }
